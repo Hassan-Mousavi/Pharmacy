@@ -16,19 +16,35 @@ body {
   position: relative;
 }
 .header {
-  background-color: aquamarine;
+  background-color: #33bdc2;
 }
 /* nav */
 
-.search {
+.header-top {
   display: flex;
-  background-color: aqua;
+  background-color: #00adb3;
   align-items: center;
+  justify-content: space-around;
+}
+.login {
+  display: flex;
 }
 .login-link {
+  display: flex;
+  align-items: center;
+  height: 3rem;
   margin-right: 5rem;
   text-decoration: none;
-  color: #333;
+  color: #cceff0;
+}
+.login-icon {
+  width: 3rem;
+  height: 3rem;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 35rem;
 }
 .search-input {
   display: inline-block;
@@ -37,15 +53,29 @@ body {
   width: 40rem;
   border: 0;
   outline: none;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   font-size: 1.8rem;
+  padding-right: 1rem;
 }
 .search-input::placeholder {
-  padding-right: 1rem;
+  color: #00adb3;
+}
+.search-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #99dee1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+  stroke: #00adb3;
+}
+.basket-icon {
+  width: 4rem;
+  height: 4rem;
+}
+.basket-link {
+  color: #cceff0;
 }
 .nav-list {
   display: flex;
@@ -60,7 +90,8 @@ body {
 }
 .nav-link {
   text-decoration: none;
-  color: #333;
+  color: #cceff0;
+  font-weight: bold;
 }
 .logo {
   width: 5.5rem;
