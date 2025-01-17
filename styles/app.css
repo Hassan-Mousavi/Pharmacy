@@ -281,9 +281,9 @@ body {
   row-gap: 2.5rem;
   margin-bottom: 8rem;
 }
-.selective-product {
+.selective-item {
   width: 30rem;
-  height: 25rem;
+  height: 24rem;
   border: 1px solid #66ced1;
   box-shadow: 0 0 5px #cceff0;
   border-radius: 15px;
@@ -291,15 +291,42 @@ body {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  object-fit: fill;
+  cursor: pointer;
 }
-.selective-product:hover {
+.selective-item:hover {
   transform: scale(1.03);
   -webkit-transform: scale(1.03);
   -moz-transform: scale(1.03);
   -ms-transform: scale(1.03);
   -o-transform: scale(1.03);
   border: 2px solid #2e777a;
+}
+.selective-product {
+  width: 30rem;
+  height: 20rem;
+  object-fit: fill;
+  padding: 0.5rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.selective-product_title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00adb3;
+  background-color: #cceff0;
+  width: 20rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 1px solid #00adb3;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 /* tablighat */
 .tablighat {
@@ -375,6 +402,31 @@ body {
 .most-view {
   margin-bottom: 8rem;
 }
+.most-view_title {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  position: relative;
+  color: #2e777a;
+  background-color: #99dee1;
+  width: 23rem;
+  padding: 1rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.most-view_title::before {
+  display: inline-block;
+  content: "";
+  width: 2rem;
+  height: 0.3rem;
+  background-color: #66ced1;
+  position: absolute;
+  top: 2.3rem;
+  right: -2.5rem;
+}
 .product-card {
   position: relative;
   border: 2px solid #2e777a;
@@ -423,4 +475,12 @@ body {
   cursor: pointer;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+/* footer */
+.footer-banner {
+  margin-bottom: 8rem;
+}
+.footer-banner_img {
+  width: 100%;
+  height: 9rem;
 }
