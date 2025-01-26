@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.sign-in {
+  width: 40rem;
+  height: 50rem;
+  background: linear-gradient(
+      rgba(204, 239, 240, 0.5),
+      rgba(204, 239, 240, 0.6)
+    ),
+    url(/images/Free\ \ Simple\,\ Safe\,\ Medication\ Background\ Images\,\ Stylish\ \ Simple\ \ Green\ \ Safe\ Medication\ \ Poster\ Background\ Photo\ Background\ PNG\ and\ Vectors.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 5px #2e777a;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 2rem 4rem;
+}
+.sign-in_title {
+  font-size: 3.2rem;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+  text-align: center;
+  color: #2e777a;
+  text-shadow: 0 0 5px #66ced1;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.sign-in_input {
+  margin-bottom: 1.5rem;
+  height: 4rem;
+  box-shadow: 0 0 5px #2e777a;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: rgba(102, 206, 209, 0.5);
+  backdrop-filter: blur(1px);
+  padding: 0 1rem;
+  outline: none;
+  font-size: 2rem;
+  color: #2e777a;
+}
+.sign-in_forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.check-box {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+.check-box_text {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.forget-text {
+  font-size: 2rem;
+}
