@@ -34,7 +34,7 @@ body {
 }
 .sign-in_title {
   font-size: 3.2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   margin-top: 4rem;
   text-align: center;
   color: #2e777a;
@@ -63,15 +63,15 @@ body {
   font-size: 2rem;
   color: #2e777a;
 }
-.icon {
+.icon,
+.icon-eye {
   width: 2.5rem;
   height: 2.5rem;
   margin-left: 1rem;
 }
 .icon-eye {
   fill: #2e777a;
-  width: 2.5rem;
-  height: 2.5rem;
+  margin-right: 3rem;
   cursor: pointer;
 }
 .sign-in_input {
@@ -82,9 +82,8 @@ body {
   font-size: 2rem;
   color: #2e777a;
 }
-.sign-in_forget {
+.Check-Box {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
 }
@@ -131,7 +130,14 @@ body {
   color: #2e777a;
   box-shadow: 0 0 5px #2e777a;
 }
-.new-account {
+.new-account_text {
+  margin-left: 1rem;
+}
+.new-account_container {
+  text-align: center;
+}
+.new-account,
+.new-account_text {
   font-size: 1.8rem;
   font-weight: 700;
   color: #2e777a;
