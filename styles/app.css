@@ -724,29 +724,196 @@ body {
 /* footer */
 .footer {
   background-color: #2e777a;
+  position: relative;
 }
 .my-footer {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+}
+.footer-right {
+  border-left: 2px solid #99dee1;
+  margin-left: 2rem;
 }
 .right-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.footer-logo {
+  margin-top: 2rem;
+}
+.footer-logo .logo {
+  margin-bottom: 1rem;
+}
+.footer-text {
+  width: 30rem;
+  line-height: 1.8;
+  color: #66ced1;
+  text-shadow: 0 0 4px #00adb3;
 }
 .footer-lists {
   display: flex;
-  width: 61rem;
+  justify-content: space-between;
+  margin-left: 5rem;
+  width: 45rem;
 }
 .list1 {
+  margin-right: 3rem;
+}
+.list1 a,
+.list2 a {
+  text-decoration: none;
+}
+.list1,
+.list2 {
+  margin-top: 3rem;
 }
 .list1 ul,
 .list2 ul {
   list-style-type: none;
+  margin-top: 1rem;
+}
+.list-title {
+  color: #cceff0;
+  font-size: 2.5rem;
+}
+.footer-list_item {
+  margin-bottom: 2rem;
+  color: #66ced1;
+  font-weight: 700;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.right-down {
+  margin-bottom: 5rem;
+}
+.list1 a :hover,
+.list2 a :hover {
+  color: #cceff0;
 }
 .right-down {
   display: flex;
 }
+
 .footer-box div {
   display: flex;
   align-items: center;
+}
+.footer-box_title {
+  color: #cceff0;
+  margin-right: 3.5rem;
+}
+.footer-box_text {
+  color: #66ced1;
+  line-height: 1.5;
+}
+.footer-down_icon {
+  width: 5rem;
+  height: 3.5rem;
+  padding: 0.5rem 0;
+  background-color: #cceff0;
+  fill: #2e777a;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-left: 1rem;
+}
+#footer-box1 {
+  width: 30rem;
+  padding: 0.5rem 2rem;
+  border-left: 3px solid #99dee1;
+}
+#footer-box2 {
+  width: 30rem;
+  padding: 0.5rem 2rem;
+  border-left: 3px solid #99dee1;
+}
+#footer-box3 {
+  width: 30rem;
+  padding: 0.5rem 2rem;
+}
+#footer-box3 .footer-down_icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.footer-left_title {
+  color: #cceff0;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.footer-left_text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #66ced1;
+  text-shadow: 0 0 4px #00adb3;
+  margin-bottom: 1rem;
+}
+.input-email {
+  display: flex;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+}
+.input-email input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.input-email button {
+  border: none;
+  width: 10rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  background-color: #00adb3;
+  color: #cceff0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.input-email button:hover {
+  background-color: #cceff0;
+  color: #2e777a;
+}
+.mojavez {
+  color: #cceff0;
+}
+.mojavezha {
+  margin-bottom: 2rem;
+}
+.footer-left_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-title {
+  color: #cceff0;
+  font-size: 2.5rem;
+}
+.contact-icons a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.copyright {
+  border-top: 2px solid #66ced1;
+}
+.copyright-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  color: #66ced1;
+  font-size: 2rem;
+  font-weight: 700;
 }
