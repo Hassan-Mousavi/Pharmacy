@@ -1,0 +1,136 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 127rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .search {
+    margin-left: 1rem;
+  }
+  .search-input {
+    width: 25rem;
+  }
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .banners {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .banner-right,
+  .banner-left {
+    width: 100%;
+    height: 25rem;
+  }
+  .my-footer {
+    flex-wrap: wrap;
+  }
+  .footer-right {
+    width: 100%;
+    margin-left: 0;
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+  .header-top {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  .login {
+    order: 2;
+    justify-content: center;
+  }
+  .search {
+    order: 1;
+    margin-left: 0;
+    width: 100%;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding: 1rem;
+  }
+  .nav-list-item {
+    margin: 0.5rem;
+  }
+  .hero {
+    height: 50rem;
+  }
+  .hero-left {
+    top: 5rem;
+    padding: 0 2rem;
+  }
+  .hero-title {
+    font-size: 3.2rem;
+  }
+  .selective-item {
+    width: 48%;
+    margin: 1%;
+  }
+  .product-slider {
+    padding-bottom: 2rem;
+  }
+
+  .mini-banners {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .mini-1,
+  .mini-2,
+  .mini-3 {
+    width: 100%;
+  }
+  .testimonial {
+    flex-direction: column;
+  }
+  .footer-list {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-right {
+    padding: 0 2rem;
+  }
+  .footer-left {
+    margin-right: 10rem;
+  }
+  .input-email input {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-caption {
+    font-size: 1.6rem;
+  }
+  .product-card {
+    width: 100%;
+  }
+  .footer-right {
+    border-left: none;
+  }
+  .right-down {
+    flex-direction: column;
+  }
+  .footer-box {
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
+}

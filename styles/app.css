@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 body {
   font-size: 1.8rem;
@@ -22,21 +22,26 @@ body {
   color: #cceff0;
 }
 .container {
-  width: 127rem;
-  padding: 0 1.5rem 0 1.5rem;
+  width: 100%;
+  max-width: 140rem;
   margin: 0 auto;
+  /* padding: 0 1.5rem; */
   position: relative;
 }
 .header {
   margin-bottom: 8rem;
+  position: relative;
 }
 /* nav */
 
 .header-top {
+  position: absolute;
   display: flex;
   background-color: #00adb3;
   align-items: center;
   justify-content: space-around;
+  width: 100%;
+  z-index: 1;
 }
 .login {
   display: flex;
@@ -108,6 +113,10 @@ body {
 }
 .nav {
   background-color: #66ced1;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  top: 5.5rem;
 }
 .nav-list {
   display: flex;
@@ -140,6 +149,7 @@ body {
 /* hero */
 .hero {
   position: relative;
+  top: 13rem;
   background: linear-gradient(
       267deg,
       rgba(0, 173, 179, 0.502),
@@ -149,6 +159,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 60rem;
+  margin-bottom: 20rem;
 }
 
 .hero-left {
@@ -189,7 +200,6 @@ body {
 /* banners */
 .banner {
   margin-bottom: 5rem;
-  width: 100%;
 }
 .banners {
   display: flex;
@@ -240,6 +250,16 @@ body {
   text-decoration: none;
   color: #2e777a;
 }
+.banners,
+.mini-banners,
+.selective-products {
+  width: 100%;
+  flex-wrap: wrap;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 /* selective-producs */
 .selective {
   margin-bottom: 5rem;
@@ -276,8 +296,9 @@ body {
   margin-bottom: 8rem;
 }
 .selective-item {
-  width: 30rem;
+  width: 45%;
   height: 24rem;
+  margin: 1%;
   border: 1px solid #66ced1;
   box-shadow: 0 0 5px #cceff0;
   border-radius: 15px;
@@ -362,6 +383,7 @@ body {
   justify-content: center;
   /* THIS creates the animation! */
   transition: transform 1s;
+  scroll-snap-align: start;
 }
 .slider__btn {
   position: absolute;
@@ -398,6 +420,7 @@ body {
   margin: 0 auto;
   position: relative;
   overflow-x: hidden;
+  scroll-snap-type: x mandatory;
 }
 .slide_1 {
   position: absolute;
