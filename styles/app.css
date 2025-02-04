@@ -420,7 +420,6 @@ img {
   margin: 0 auto;
   position: relative;
   overflow-x: hidden;
-  scroll-snap-type: x mandatory;
 }
 .slide_1 {
   position: absolute;
@@ -769,7 +768,7 @@ img {
   margin-bottom: 1rem;
 }
 .footer-text {
-  width: 30rem;
+  max-width: 30rem;
   line-height: 1.8;
   color: #66ced1;
   text-shadow: 0 0 4px #00adb3;
@@ -779,6 +778,7 @@ img {
   justify-content: space-between;
   margin-left: 5rem;
   width: 45rem;
+  margin-top: 3rem;
 }
 .list1 {
   margin-right: 3rem;
@@ -787,10 +787,7 @@ img {
 .list2 a {
   text-decoration: none;
 }
-.list1,
-.list2 {
-  margin-top: 3rem;
-}
+
 .list1 ul,
 .list2 ul {
   list-style-type: none;
