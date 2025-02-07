@@ -60,6 +60,11 @@
     width: 100%;
     height: 25rem;
   }
+  .banner-left_link {
+    top: 33rem;
+    left: 50rem;
+    width: 30rem;
+  }
   .banner-list {
     right: 10rem;
   }
@@ -114,9 +119,14 @@
   .hero-title {
     font-size: 3.2rem;
   }
+  .banner-right,
+  .banner-left {
+    width: 100%;
+    height: 25rem;
+  }
   .banner-left_link {
     top: 33rem;
-    left: 50rem;
+    left: 40rem;
   }
   .selective-item {
     width: 48%;
@@ -157,22 +167,67 @@
   #footer-box2 {
     border-left: none;
   }
-  .footer-left {
-    margin-right: 10rem;
-  }
   .input-email input {
     width: 30rem;
   }
 }
 @media screen and (max-width: 480px) {
+  .hero {
+    top: 23rem;
+  }
   .hero-title {
     font-size: 2.5rem;
+    margin-right: 35rem;
   }
   .hero-caption {
     font-size: 1.6rem;
+    width: 30rem;
+    margin-right: 35rem;
+  }
+  .hero-links {
+    margin-right: 34rem;
+  }
+  .banner-right,
+  .banner-left {
+    width: 100%;
+    height: 25rem;
+  }
+  .banner-list {
+    right: 7rem;
   }
   .banner-left_link {
-    top: 33rem;
+    top: 37rem;
+    left: 21rem;
+    width: 21rem;
+    font-size: 2.5rem;
+  }
+  .selective-title,
+  .most-view_title,
+  .mini-banner_title,
+  .most-sale_title,
+  .testimonial_title {
+    width: 16rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .selective-products {
+    flex-direction: column;
+    align-items: center;
+  }
+  .selective-item {
+    width: 45rem;
+  }
+  .selective-product {
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+  }
+  .tablighat {
+    flex-direction: column;
+    padding: 0;
+  }
+  .tablighat-caption {
+    text-align: center;
   }
   .slide {
     width: 100%;
@@ -188,8 +243,25 @@
   .product-card {
     margin-right: 0;
   }
+  .drop {
+    height: 30rem;
+    width: 30rem;
+  }
+  .drop::before {
+    left: 6rem;
+  }
+  .content h2 {
+    width: 5rem;
+    height: 5rem;
+  }
   .footer-right {
     border-left: none;
+  }
+  .footer-left {
+    width: 100%;
+  }
+  .right-top {
+    flex-direction: column;
   }
   .right-down {
     flex-direction: column;
@@ -197,5 +269,8 @@
   .footer-box {
     width: 100% !important;
     margin-bottom: 2rem;
+  }
+  #footer-box1 {
+    border-left: none;
   }
 }
