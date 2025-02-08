@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
   padding: 0 1.5rem;
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .header {
   margin-bottom: 8rem;
